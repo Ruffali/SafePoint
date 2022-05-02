@@ -1,0 +1,44 @@
+#scroll_top {
+  position: fixed;
+  bottom: 27px;
+  right: 38px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 22;
+  width: 39px;
+  height: 39px;
+  background: #29abe2;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  transition: all linear 0.5s;
+  svg {
+    animation: scrollTop 0.5s alternate ease infinite;
+    path {
+      transition: all linear 0.5s;
+      fill: #ffffff;
+    }
+  }
+  &:hover {
+    background: #fff;
+    border-color: #29abe2;
+    svg {
+      path {
+        fill: #29abe2;
+      }
+    }
+  }
+  &.z_index {
+    z-index: 0;
+  }
+}
+
+@keyframes scrollTop {
+  from {
+    transform: translateY(-1px);
+  }
+  to {
+    transform: translateY(1px);
+  }
+}

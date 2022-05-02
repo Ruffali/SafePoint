@@ -1,0 +1,54 @@
+#navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 31px 0;
+  z-index: 2;
+  .container {
+    .row {
+      .col-md-12 {
+        .navbar {
+          .right {
+            display: flex;
+            align-items: center;
+            select {
+              cursor: pointer;
+              outline: none;
+              box-shadow: none;
+              margin-left: 40px;
+              font-weight: 400;
+              font-size: 16px;
+              color: #ffffff;
+              background: transparent;
+              border: none;
+              option {
+                color: initial;
+                background: inherit;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 650.5px) {
+  #navbar {
+    padding: 20px 0;
+    .container {
+      .row {
+        .col-md-12 {
+          .navbar {
+            justify-content: center;
+            .right {
+              margin-top: 25px;
+              width: 100%;
+              justify-content: space-around;
+            }
+          }
+        }
+      }
+    }
+  }
+}
