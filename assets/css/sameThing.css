@@ -19,11 +19,13 @@ body {
   border-radius: 4px;
   font-weight: 400;
   font-size: 16px;
-  color: #ffffff; }
+  color: #ffffff;
+  transition: all linear 0.2s; }
   .button.colorful {
     background: linear-gradient(0deg, #29abe2 0%, #26a6df 24.58%, #1c98d6 53.03%, #0b81c7 83.3%, #0071bc 100%); }
   .button:hover {
-    color: #ffffff; }
+    color: #ffffff;
+    border: 1px solid #ffffff; }
 
 .logo {
   width: 186px;

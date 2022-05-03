@@ -21,6 +21,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   color: #ffffff;
+  transition: all linear 0.2s;
   &.colorful {
     background: linear-gradient(
       0deg,
@@ -33,6 +34,7 @@ body {
   }
   &:hover {
     color: #ffffff;
+    border: 1px solid #ffffff;
   }
 }
 

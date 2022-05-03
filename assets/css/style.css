@@ -19,11 +19,13 @@ body {
   border-radius: 4px;
   font-weight: 400;
   font-size: 16px;
-  color: #ffffff; }
+  color: #ffffff;
+  transition: all linear 0.2s; }
   .button.colorful {
     background: linear-gradient(0deg, #29abe2 0%, #26a6df 24.58%, #1c98d6 53.03%, #0b81c7 83.3%, #0071bc 100%); }
   .button:hover {
-    color: #ffffff; }
+    color: #ffffff;
+    border: 1px solid #ffffff; }
 
 .logo {
   width: 186px;
@@ -264,7 +266,7 @@ body {
         border-radius: 20px;
         z-index: 2; }
       #info .container .row .col-md-12 .info .info_wrapper .content {
-        padding: 90px 79px 90px 314px;
+        padding: 40px 79px 40px 314px;
         border: 1px solid #29abe2;
         background: rgba(255, 255, 255, 0.05);
         border-radius: 20px;
