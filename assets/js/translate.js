@@ -2,7 +2,7 @@ $(document).ready(function () {
   const translate = [
     {
       main_text:
-        "“Safe Point” is dedicated to helping communities get on with their lives and reclaim their future.",
+        'Ensuring a safe life and future for society is main aim of "Safe Point"',
       button_contact: "Əlaqə",
       button_about: "Haqqımızda",
       info_title: "Biz kimik",
@@ -21,7 +21,7 @@ $(document).ready(function () {
     },
     {
       main_text:
-        "“Safe Point” is dedicated to helping communities get on with their lives and reclaim their future.",
+        '"Safe Point" şirkətinin əsas məqsədi cəmiyyət üçün təhlükəsiz həyat və gələcək təmin etməkdir',
       button_contact: "Contact Us",
       button_about: "About Us",
       info_title: "Who </br> We are",
@@ -42,8 +42,8 @@ $(document).ready(function () {
 
   $("#translate").on("change", function () {
     $("#main p").html(translate[this.value].main_text);
-    $(".button.colorful").html(translate[this.value].button_about);
-    $(".button.contact").html(translate[this.value].button_contact);
+    $(".button.colorful span").html(translate[this.value].button_about);
+    $(".button.contact span").html(translate[this.value].button_contact);
     $("#info .title").html(translate[this.value].info_title);
     $("#info .title").html(translate[this.value].info_title);
     $("#info .text01").html(translate[this.value].info_text_01);
